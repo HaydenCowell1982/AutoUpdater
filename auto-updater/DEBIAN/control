@@ -1,0 +1,7 @@
+Package: auto-updater
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Hayden Cowell
+Description: Automatically runs apt update and apt full-upgrade at boot.

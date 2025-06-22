@@ -1,0 +1,11 @@
+[Unit]
+Description=Auto APT Updater
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/bash -c "/usr/bin/apt update && /usr/bin/apt full-upgrade -y"
+Type=oneshot
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
