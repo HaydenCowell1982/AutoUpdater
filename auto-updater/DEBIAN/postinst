@@ -1,5 +1,4 @@
 #!/bin/bash
 
-systemctl daemon-reexec
 systemctl daemon-reload
 systemctl enable auto-updater.service
